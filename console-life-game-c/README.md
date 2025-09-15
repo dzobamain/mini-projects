@@ -1,68 +1,23 @@
-# Life Game - Console Implementation in C
+# Console Life Game
 
-## Installation Guide
+## About
 
-1. Windows
-    + Download and install [MinGW](https://www.mingw-w64.org/downloads/).
-    + Add `gcc` to the `PATH` environment variable.
-    + Verify the installation by running:
-    + ```sh 
-      gcc --version
-      ```
-1. macOS
-   + Install Xcode Command Line Tools.  
-   + ```sh
-     xcode-select --install
-     ```
-   + Or install `gcc` via Homebrew.  
-   + ```sh
-     brew install gcc
-     ```
-   + Verify the installation by running:  
-   + ```sh
-     gcc --version
-     ```
+Life Game is a console implementation of Conway's Game of Life in C.  
+The program simulates the evolution of cells on a grid according to classic rules of birth and death.
 
-2. Linux
-   + Install `gcc` using your package manager.  
-   + **Ubuntu/Debian**  
-   + ```sh
-     sudo apt update && sudo apt install gcc -y
-     ```
-   + **Arch Linux**  
-   + ```sh
-     sudo pacman -S gcc
-     ```
-   + **Fedora**  
-   + ```sh
-     sudo dnf install gcc
-     ```
-   + Verify the installation by running:  
-   + ```sh
-     gcc --version
-     ```
+## Installation
 
-### Install the Project
+1. Install GCC (if not already installed):  
+   [Windows - MinGW](https://www.mingw-w64.org/downloads/)  
+   [macOS - Xcode / Homebrew](https://brew.sh/)  
+   [Linux - GCC](https://gcc.gnu.org/install/)  
 
-   + Open a terminal and run the following command to clone the repository:
-   + ```sh
-     git clone https://github.com/Dzobamain/console-life-game-c.git
-     cd console-life-game-c
-     ```
+2. Clone the repository:  
+   [console-life-game-c](https://github.com/Dzobamain/console-life-game-c)
 
 ## How to Run
 
-   + Open a terminal and navigate to the project folder:
-   + ```sh
-     cd console-life-game-c
-     ```
-   + Compile the program using `gcc`:
-   + ```sh
-     gcc -o lifeGame main.c
-     ```
-   + Run
-   + ```sh 
-     ./lifeGame
-     ```
++ Compile using the provided script:  
 
-    
+```sh
+./build.sh
